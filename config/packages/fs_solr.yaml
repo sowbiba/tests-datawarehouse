@@ -1,0 +1,8 @@
+fs_solr:
+    endpoints:
+        premium_contract:
+            host: server-dev4
+            port: 38983
+            path: /solr
+            core: premium_contract
+            timeout: 30

@@ -15,7 +15,7 @@ services:
     # this creates a service per class whose id is the fully-qualified class name
     App\:
         resource: '../src/*'
-        exclude: '../src/{Entity,Migrations,Tests}'
+        exclude: '../src/{Entity,Migrations,Tests,Solr}'
 
     # controllers are imported separately to make sure services can be injected
     # as action arguments even if you don't extend any base controller class
@@ -25,3 +25,12 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    solr.client:
+      class: App\Solr\Client\Solr
+      public: true
+      arguments:
+        - '@solr.client.adapter'
+        - '@event_dispatcher'
+        - '@solr.meta.information.factory'
+        - '@solr.doctrine.entity_mapper'

@@ -17,14 +17,26 @@
     "doctrine/common": {
         "version": "v2.8.1"
     },
+    "doctrine/dbal": {
+        "version": "v2.6.3"
+    },
     "doctrine/inflector": {
         "version": "v1.2.0"
+    },
+    "doctrine/instantiator": {
+        "version": "1.1.0"
     },
     "doctrine/lexer": {
         "version": "v1.0.1"
     },
+    "doctrine/orm": {
+        "version": "v2.6.0"
+    },
     "elasticsearch/elasticsearch": {
         "version": "v6.0.0"
+    },
+    "floriansemm/solr-bundle": {
+        "version": "v1.6.6.1"
     },
     "friendsofsymfony/elastica-bundle": {
         "version": "5.0",
@@ -41,8 +53,17 @@
     "guzzlehttp/streams": {
         "version": "3.0.0"
     },
+    "minimalcode/search": {
+        "version": "1.0.1"
+    },
+    "monolog/monolog": {
+        "version": "1.23.0"
+    },
     "pagerfanta/pagerfanta": {
         "version": "v1.0.5"
+    },
+    "paragonie/random_compat": {
+        "version": "v2.0.11"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -55,6 +76,9 @@
     },
     "psr/simple-cache": {
         "version": "1.0.0"
+    },
+    "ramsey/uuid": {
+        "version": "3.7.1"
     },
     "react/promise": {
         "version": "v2.5.1"
@@ -70,6 +94,9 @@
             "version": "4.0",
             "ref": "aaddfdf43cdecd4cf91f992052d76c2cadc04543"
         }
+    },
+    "solarium/solarium": {
+        "version": "3.8.1"
     },
     "symfony/apache-pack": {
         "version": "1.0",
@@ -102,6 +129,9 @@
         "version": "v3.4.2"
     },
     "symfony/dependency-injection": {
+        "version": "v3.4.2"
+    },
+    "symfony/doctrine-bridge": {
         "version": "v3.4.2"
     },
     "symfony/dotenv": {
@@ -145,6 +175,18 @@
     },
     "symfony/lts": {
         "version": "v3"
+    },
+    "symfony/monolog-bridge": {
+        "version": "v3.4.2"
+    },
+    "symfony/monolog-bundle": {
+        "version": "3.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.1",
+            "ref": "c24944bd87dacf0bb8fa218dc21e4a70fff56882"
+        }
     },
     "symfony/polyfill-apcu": {
         "version": "v1.6.0"
