@@ -1,0 +1,10 @@
+# Read the documentation: https://github.com/FriendsOfSymfony/FOSElasticaBundle/blob/master/Resources/doc/setup.md
+fos_elastica:
+    clients:
+        default: { host: elasticsearch.recette.lesdossiers.com, port: 29200 }
+    indexes:
+        tests_isow:
+          types:
+            tests_isow:
+                properties:
+                    title: ~
